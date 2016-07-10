@@ -1,5 +1,10 @@
 require "./rashied/*"
+require "kemal"
 
-module Rashied
-  # TODO Put your code here
+get "/:term" do |req|
+  term = req.params.url["term"]
+
+  "You want #{term}?"
 end
+
+Kemal.run

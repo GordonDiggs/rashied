@@ -1,6 +1,11 @@
 name: rashied
 version: 0.1.0
 
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
 authors:
   - GordonDiggs <gordon@gordondiggs.com>
 
